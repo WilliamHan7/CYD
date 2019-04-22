@@ -1,0 +1,65 @@
+{
+  "pages": [
+   
+    "pages/index/index",
+    "pages/index/pages/course/course",
+    "pages/index/pages/mycourselist/mycourselist",
+    "pages/index/pages/myjoblist/myjoblist",
+    "pages/index/pages/myjoblist/myjobmain/majobmain",
+    "pages/index/pages/course/courselist/courselist",
+    "pages/index/pages/course/coursebuy/coursebuy",
+    "pages/remark/remark",
+    "pages/remark/pages/oeuvre/oeuvre",
+    "pages/remark/pages/uploadPortfolios/uploadPortfolios",
+   "pages/remark/pages/artworkdetails/artworkdetails",
+    "pages/remark/pages/liveccourses/liveccourses",
+    "pages/circle/circle",
+    "pages/circle/pages/teachersaid/teachersaid",
+    "pages/circle/pages/teachersaid/teachersaidindex/teachersaidindex",
+    "pages/circle/pages/microblog/microblog",
+    "pages/circle/pages/microblog/microindex/microindex",
+    "pages/circle/pages/microblog/addmicro/addmicro",
+    "pages/circle/pages/microblog/microindex/microdetails/microdetails",
+    "pages/circle/pages/videos/videoplay/videoplay",
+    "pages/circle/pages/videos/videos",
+    "pages/user/user",
+    "pages/user/pages/advices/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#777777",
+    "selectedColor": "#60d02f",
+    "list": [
+      {
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/indexlight.png",
+        "pagePath": "pages/index/index",
+        "text": "课程"
+      },
+      {
+        "iconPath": "images/remark.png",
+        "selectedIconPath": "images/remarklight.png",
+        "pagePath": "pages/remark/remark",
+        "text": "作品点评"
+      },
+      {
+        "iconPath": "images/circl.png",
+        "selectedIconPath": "images/circlelight.png",
+        "pagePath": "pages/circle/circle",
+        "text": "艺术圈"
+      },
+      {
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/userlight.png",
+        "pagePath": "pages/user/user",
+        "text": "个人中心"
+      }
+    ]
+  }
+}
